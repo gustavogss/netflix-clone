@@ -1,24 +1,89 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    <title>NETFLIX CLONE</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css" />
+
+    <title>NETFLIX</title>
+  </head>
+  <body>
     <header>
-        <div class="container">
-            <h2 class="logo">NETFLIX</h2>
-            <nav>
-                <a href="#">Inicio</a>
-                <a href="#">Séries</a>
-                <a href="#">Filmes</a>
-                <a href="#">Documentários</a>           
-            </nav>
-        </div>
+      <div class="container">
+        <h2 class="logo">NETFLIX</h2>
+        <nav>
+          <a href="#">Inicio</a>
+          <a href="#">Séries</a>
+          <a href="#">Filmes</a>
+          <a href="#">Documentários</a>
+        </nav>
+      </div>
     </header>
-  <script src="./js/script.js"></script>  
-</body>
+
+    <main>
+      <div class="filme-principal">
+        <div class="container">
+          <h3 class="titulo">WALKER</h3>
+          <p class="descricao">
+            Cordell Walker é um homem viúvo que, ao voltar para Austin, no
+            Texas, sua terra natal, passa a investigar crimes na unidade de
+            elite do estado. Seguindo seu próprio código moral, ele luta pelo
+            que acha que é certo, independentemente das regras.
+          </p>
+          <div class="botoes">
+            <button role="button" class="botao">
+              <i class="fas fa-play"></i>
+              ASSISTIR AGORA
+            </button>
+            <button role="button" class="botao">
+              <i class="fas fa-info-circle"></i>
+              MAIS INFORMAÇÕES
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="carrosel-filmes">
+      <div class="owl-carousel owl-theme">
+        <div class="item">
+          <img class="box-filme" src="img/serie1.jpg" alt="" srcset="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/serie2.jpg" alt="" srcset="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/serie3.jpg" alt="" srcset="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/serie4.jpg" alt="" srcset="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/serie5.jpg" alt="" srcset="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/serie6.jpg" alt="" srcset="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/serie7.jpg" alt="" srcset="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/serie8.jpg" alt="" srcset="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/serie9.jpg" alt="" srcset="" />
+        </div>
+        <div class="item">
+          <img class="box-filme" src="img/serie10.jpg" alt="" srcset="" />
+        </div>
+      </div>
+    </div>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/script.js"></script>
+  </body>
 </html>
