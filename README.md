@@ -1,4 +1,8 @@
-### Tela Inicial do Netflix
+## 💻 Projeto
+Tela Inicial do NetFlix
 
-- Tecnologias utilizadas: HTML5, CSS3 e JQUERY
-- Ferramentas: VSCode
+### 🤖 Tecnologias e Ferramentas utilizadas: 
+- HTML5
+- CSS3
+- JQUERY
+- VSCode
