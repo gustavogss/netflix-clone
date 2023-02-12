@@ -6,5 +6,4 @@ Tela Inicial do NetFlix
 - CSS3
 - JQUERY
 - VSCode
-### Deploy 🔌
-https://gustavogss.github.io/Netflix/
+
